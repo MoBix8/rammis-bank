@@ -1,0 +1,219 @@
+{
+    "title": "Evening Adzkar",
+    "title-id": "Dzikir Petang",
+    "main-type": "dzikr",
+    "lang" : [
+        "id"
+    ],
+    "collection": [
+        {
+            "title": "Ayat Kursi",
+            "title-id": "Ayat Kursi",
+            "content": [
+                {
+                    "ar": "اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ، لاَ تَأْخُذُهُ سِنَةٌ وَلاَ نَوْمٌ، لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ، مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلاَّ بِإِذْنِهِ، يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ، وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلاَّ بِمَا شَاءَ، وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ، وَلَا يَئُودُهُ حِفْظُهُمَا، وَهُوَ الْعَلِيُّ الْعَظِيمُ",
+                    "en": "Allāh - there is no deity except Him, the Ever-Living, the Self-Sustaining. Neither drowsiness overtakes Him nor sleep. To Him belongs whatever is in the heavens and whatever is on the earth. Who is it that can intercede with Him except by His permission? He knows what is [presently] before them and what will be after them, and they encompass not a thing of His knowledge except for what He wills. His Kursī extends over the heavens and the earth, and their preservation tires Him not. And He is the Most High, the Most Great.",
+                    "id": "Allah tidak ada Ilah (yang berhak diibadahi) melainkan Dia Yang Hidup Kekal lagi terus menerus mengurus (makhluk-Nya); tidak mengantuk dan tidak tidur. Kepunyaan-Nya apa yang ada di langit dan di bumi. Tidak ada yang dapat memberi syafa’at di sisi Allah tanpa izin-Nya. Allah mengetahui apa-apa yang (berada) dihadapan mereka, dan dibelakang mereka dan mereka tidak mengetahui apa-apa dari Ilmu Allah melainkan apa yang dikehendaki-Nya. Kursi Allah meliputi langit dan bumi. Dan Allah tidak merasa berat memelihara keduanya, Allah Mahatinggi lagi Mahabesar.” (Al-Baqarah: 255)",
+                    "count": 1,
+                    "type": "quran"
+                }
+            ]
+        },
+        {
+            "title": "Al Ikhlash",
+            "title-id": "Al Ikhlash",
+            "content": [
+                {
+                    "ar": "قُلْ هُوَ ٱللَّهُ أَحَدٌ ١ ٱللَّهُ ٱلصَّمَدُ ٢ لَمْ يَلِدْ وَلَمْ يُولَدْ ٣ وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ ٤",
+                    "en": "Say, \"He is Allāh, [who is] One, Allāh, the Eternal Refuge. He neither begets nor is born, Nor is there to Him any equivalent.\" (Al Ikhlash : 1 - 4)",
+                    "id": "Katakanlah, Dia-lah Allah, Yang Maha Esa, Allah adalah Tuhan yang bergantung kepada-Nya segala sesuatu. Dia tiada beranak dan tiada pula diperanakkan, dan tidak ada seorang pun yang setara dengan Dia (Al Ikhlash : 1 - 4)",
+                    "count": 3,
+                    "type": "quran"
+                }
+            ]
+        },
+        {
+            "title": "Al Falaq",
+            "title-id": "Al Falaq",
+            "content": [
+                {
+                    "ar": "قُلْ اَعُوْذُ بِرَبِّ الْفَلَقِۙ ١ مِنْ شَرِّ مَا خَلَقَۙ ٢ وَمِنْ شَرِّ غَاسِقٍ اِذَا وَقَبَۙ ٣ وَمِنْ شَرِّ النَّفّٰثٰتِ فِى الْعُقَدِۙ ٤ وَمِنْ شَرِّ حَاسِدٍ اِذَا حَسَد ٥",
+                    "en": "Say, \"I seek refuge in the Lord of daybreak From the evil of that which He created. And from the evil of darkness when it settles. And from the evil of the blowers in knots. And from the evil of an envier when he envies.\" (Al-Falaq 1-5)",
+                    "id": "Katakanlah, Aku berlindung kepada Tuhan yang menguasai subuh (fajar) dan dari kejahatan (makhluk yang) Dia ciptakan, dari kejahatan (perempuan-perempuan) penyihir yang meniup pada buhul-buhul (talinya) dan dari kejahatan malam apabila telah gelap gulita dan dari kejahatan orang yang dengki apabila dia dengki.” (Al-Falaq 1-5)",
+                    "count": 3,
+                    "type": "quran"
+                }
+            ]
+        },
+        {
+            "title": "An Naas",
+            "title-id": "An Naas",
+            "content": [
+                {
+                    "ar": "قُلْ اَعُوْذُ بِرَبِّ النَّاس ١ مَلِِ النَّاسِۙاِ،لٰهِالنَّاس ٢ مِنْ شَرِّ الْوَسْوَاسِ ۙ الْخَنَّاسِ ٣ الَّذِيْ يُوَسْوِسُ فِيْ صُدُوْرِ النَّاسِ ٤ مِنَ الْجِنَّةِ وَالنَّاس ٥",
+                    "en": "Say, \"I seek refuge in the Lord of mankind, The Sovereign of mankind, The God of mankind,From the evil of the retreating whisperer - Who whispers [evil] into the breasts of mankind - From among the jinn and mankind\". (An-Naas 1-6)",
+                    "id": "Aku berlindung kepada Tuhannya manusia, sembahan manusia, dari kejahatan (bisikan) setan yang bersembunyi yang membisikkan (kejahatan) ke dalam dada manusia dari (golongan) jin dan manusia.” (An-Naas 1-6)",
+                    "count": 3,
+                    "type": "quran"
+                }
+            ]
+        },
+        {
+            "title": "",
+            "title-id": "Memohon Kebaikan di Sore Hari",
+            "content": [
+                {
+                    "ar": "أَمْسَيْنَا وَأَمْسَى الْمُلْكُ للهِ، وَالْحَمْدُ للهِ، لَا إِلَهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، رَبِّ أَسْأَلُكَ خَيْرَ مَا فِي هَذِهِ اللَّيْلَةِ وَخَيْرَ مَا بَعْدَهَا، وَأَعُوذُبِكَ مِنْ شَرِّ مَا فِي هَذِهِ اللَّيْلَةِ وَشَرِّ مَا بَعْدَهَا، رَبِّ أَعُوذُبِكَ مِنَ الْكَسَلِ وَسُوءِ الْكِبَرِ، رَبِّ أَعُوذُبِكَ مِنْ عَذَابٍ فِي النَّارِ وَعَذَابٍ فِي الْقَبْرِ",
+                    "en": "",
+                    "id": "Kami telah memasuki waktu sore dan kerajaan hanya milik Allah, segala puji hanya milik Allah. Tidak ada Ilah yang berhak diibadahi dengan benar kecuali Allah Yang Maha Esa, tiada sekutu bagi-Nya. Bagi-Nya kerajaan dan bagi-Nya pujian. Dia-lah Yang Mahakuasa atas segala sesuatu. Wahai Rabb, aku mohon kepada-Mu kebaikan di malam ini dan kebaikan sesudahnya. Aku berlindung kepada-Mu dari kejahatan malam ini dan kejahatan sesudahnya. Wahai Rabb, aku berlindung kepada-Mu dari kemalasan dan kejelekan di hari tua. Wahai Rabb, aku berlindung kepada-Mu dari siksaan di Neraka dan siksaan di kubur.",
+                    "count": 1,
+                    "type": "dzikr"
+                }
+            ]
+        },
+        {
+            "title": "",
+            "title-id": "Memasuki Sore Dengan Izin Allah",
+            "content": [
+                {
+                    "ar": "اللَّهُمَّ بِكَ أَمْسَيْنَا، وَبِكَ أَصْبَحْنَا،وَبِكَ نَحْيَا، وَبِكَ نَمُوتُ، وَإِلَيْكَ الْمَصِيْرُ",
+                    "en": "",
+                    "id": "Ya Allah, dengan rahmat dan pertolongan-Mu kami memasuki waktu sore dan dengan rahmat dan pertolongan-Mu kami memasuki waktu pagi. Dengan rahmat dan kehendak-Mu kami hidup dan dengan rahmat dan kehendak-Mu kami mati. Dan kepada-Mu tempat kembali (bagi semua makhluk).",
+                    "count": 1,
+                    "type": "dzikr"
+                }
+            ]
+        },
+        {
+            "title": "",
+            "title-id": "Sayyidul Istighfar",
+            "content": [
+                {
+                    "ar": "اَللَّهُمَّ أَنْتَ رَبِّيْ لاَ إِلَـهَ إِلاَّ أَنْتَ، خَلَقْتَنِيْ وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوْذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوْءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوْءُ بِذَنْبِيْ فَاغْفِرْ لِيْ فَإِنَّهُ لاَ يَغْفِرُ الذُّنُوْبَ إِلاَّ أَنْتَ",
+                    "en": "",
+                    "id": "Ya Allah, Engkau adalah Rabb-ku, tidak ada Ilah (yang berhak diibadahi dengan benar) kecuali Engkau, Engkau-lah yang menciptakanku. Aku adalah hamba-Mu. Aku akan setia pada perjanjianku dengan-Mu semampuku. Aku berlindung kepada-Mu dari kejelekan (apa) yang kuperbuat. Aku mengakui nikmat-Mu (yang diberikan) kepadaku dan aku mengakui dosaku, oleh karena itu, ampunilah aku. Sesungguhnya tidak ada yang dapat mengampuni dosa kecuali Engkau",
+                    "count": 1,
+                    "type": "dzikr"
+                }
+            ]
+        },
+        {
+            "title": "",
+            "title-id": "Memohon perlindungan untuk tubuh dan perlindungan dari kekufuran dan kefakiran serta adzab kubur",
+            "content": [
+                {
+                    "ar": "اَللَّهُمَّ عَافِنِيْ فِيْ بَدَنِيْ، اَللَّهُمَّ عَافِنِيْ فِيْ سَمْعِيْ، اَللَّهُمَّ عَافِنِيْ فِيْ بَصَرِيْ، لاَ إِلَـهَ إِلاَّ أَنْتَ. اَللَّهُمَّ إِنِّي أَعُوْذُ بِكَ مِنَ الْكُفْرِ وَالْفَقْرِ، وَأَعُوْذُ بِكَ مِنْ عَذَابِ الْقَبْرِ، لاَ إِلَـهَ إِلاَّ أَنْتَ",
+                    "en": "",
+                    "id": "Ya Allah, selamatkanlah tubuhku (dari penyakit dan dari apa yang tidak aku inginkan). Ya Allah, selamatkanlah pendengaranku (dari penyakit dan maksiat atau dari apa yang tidak aku inginkan). Ya Allah, selamatkanlah penglihatanku, tidak ada Ilah yang berhak diibadahi dengan benar kecuali Engkau. Ya Allah, sesungguhnya aku berlindung kepada-Mu dari kekufuran dan kefakiran. Aku berlindung kepada-Mu dari siksa kubur, tidak ada Ilah yang berhak diibadahi dengan benar kecuali Engkau.",
+                    "count": 3,
+                    "type": "dzikr"
+                }
+            ]
+        },
+        {
+            "title": "",
+            "title-id": "Memohon Keselamatan Dunia dan Akhirat.",
+            "content": [
+                {
+                    "ar": "اَللَّهُمَّ إِنِّيْ أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي الدُّنْيَا وَاْلآخِرَةِ، اَللَّهُمَّ إِنِّيْ أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي دِيْنِيْ وَدُنْيَايَ وَأَهْلِيْ وَمَالِيْ اللَّهُمَّ اسْتُرْ عَوْرَاتِى وَآمِنْ رَوْعَاتِى. اَللَّهُمَّ احْفَظْنِيْ مِنْ بَيْنِ يَدَيَّ، وَمِنْ خَلْفِيْ، وَعَنْ يَمِيْنِيْ وَعَنْ شِمَالِيْ، وَمِنْ فَوْقِيْ، وَأَعُوْذُ بِعَظَمَتِكَ أَنْ أُغْتَالَ مِنْ تَحْتِيْ",
+                    "en": "",
+                    "id": "Ya Allah, sesungguhnya aku memohon kebajikan dan keselamatan di dunia dan akhirat. Ya Allah, sesungguhnya aku memohon kebajikan dan keselamatan dalam agama, dunia, keluarga dan hartaku. Ya Allah, tutupilah auratku (aib dan sesuatu yang tidak layak dilihat orang) dan tentramkan-lah aku dari rasa takut. Ya Allah, peliharalah aku dari depan, belakang, kanan, kiri dan dari atasku. Aku berlindung dengan kebesaran-Mu, agar aku tidak disambar dari bawahku (aku berlindung dari dibenamkan ke dalam bumi)",
+                    "count": 1,
+                    "type": "dzikr"
+                }
+            ]
+        },
+        {
+            "title": "",
+            "title-id": "Memohon perlindungan dari kejahatan diri sendiri - syaitan dan kesyirikan",
+            "content": [
+                {
+                    "ar": "اَللَّهُمَّ عَالِمَ الْغَيْبِ وَالشَّهَادَةِ فَاطِرَ السَّمَاوَاتِ وَاْلأَرْضِ، رَبَّ كُلِّ شَيْءٍ وَمَلِيْكَهُ، أَشْهَدُ أَنْ لاَ إِلَـهَ إِلاَّ أَنْتَ، أَعُوْذُ بِكَ مِنْ شَرِّ نَفْسِيْ، وَمِنْ شَرِّ الشَّيْطَانِ وَشِرْكِهِ، وَأَنْ أَقْتَرِفَ عَلَى نَفْسِيْ سُوْءًا أَوْ أَجُرُّهُ إِلَى مُسْلِمٍ",
+                    "en": "",
+                    "id": "Ya Allah Yang Mahamengetahui yang ghaib dan yang nyata, wahai Rabb Pencipta langit dan bumi, Rabb atas segala sesuatu dan Yang Merajainya. Aku bersaksi bahwa tidak ada Ilah yang berhak diibadahi dengan benar kecuali Engkau. Aku berlindung kepada-Mu dari kejahatan diriku, syaitan dan ajakannya menyekutukan Allah (aku berlindung kepada-Mu) dari berbuat kejelekan atas diriku atau mendorong seorang muslim kepadanya",
+                    "count": 1,
+                    "type": "dzikr"
+                }
+            ]
+        },
+        {
+            "title": "",
+            "title-id": "Dzikir menyebut nama Allah yang dengan nama-Nya tidak ada yang dapat membahayakan",
+            "content": [
+                {
+                    "ar": "بِسْمِ اللهِ الَّذِي لاَ يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي اْلأَرْضِ وَلاَ فِي السَّمَاءِ وَهُوَ السَّمِيْعُ الْعَلِيْمُ",
+                    "en": "",
+                    "id": "Dengan Menyebut Nama Allah, yang dengan Nama-Nya tidak ada satupun yang membahayakan, baik di bumi maupun dilangit. Dia-lah Yang Mahamendengar dan Maha mengetahui",
+                    "count": 3,
+                    "type": "dzikr"
+                }
+            ]
+        },
+        {
+            "title": "",
+            "title-id": "Dzikir Ridho kepada Allah sebagai rabb, nabi Muhammad sebagai rasulullah, islam sebagai agama",
+            "content": [
+                {
+                    "ar":"رَضِيْتُ بِاللهِ رَبًّا، وَبِاْلإِسْلاَمِ دِيْنًا، وَبِمُحَمَّدٍ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ نَبِيًّا",
+                    "en": "",
+                    "id": "Aku rela (ridha) Allah sebagai Rabb-ku (untukku dan orang lain), Islam sebagai agamaku dan Muhammad صلي الله عليه وسلم sebagai Nabiku (yang diutus oleh Allah)",
+                    "count": 3,
+                    "type": "dzikr"
+                }
+            ]
+        },
+        {
+            "title": "",
+            "title-id": "Dzikir Berada diFitrah Islam",
+            "content": [
+                {
+                    "ar":"أَمْسَيْنَا عَلَى فِطْرَةِ اْلإِسْلاَمِ وَعَلَى كَلِمَةِ اْلإِخْلاَصِ، وَعَلَى دِيْنِ نَبِيِّنَا مُحَمَّدٍ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ، وَعَلَى مِلَّةِ أَبِيْنَا إِبْرَاهِيْمَ، حَنِيْفًا مُسْلِمًا وَمَا كَانَ مِنَ الْمُشْرِكِيْنَ",
+                    "en": "",
+                    "id": "Di waktu sore kami berada diatas fitrah agama Islam, kalimat ikhlas, agama Nabi kita Muhammad صلي الله عليه وسلم dan agama ayah kami, Ibrahim, yang berdiri di atas jalan yang lurus, muslim dan tidak tergolong orang-orang yang musyrik.",
+                    "count": 1,
+                    "type": "dzikr"
+                }
+            ]
+        },
+        {
+            "title": "",
+            "title-id": "Dzikir Tidak Ada Sembahan Selain Allah",
+            "content": [
+                {
+                    "ar":"لاَ إِلَـهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيْكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيْرُ",
+                    "en": "",
+                    "id": "“Tidak ada Ilah yang berhak diibadahi dengan benar selain Allah Yang Maha Esa, tidak ada sekutu bagi-Nya. Bagi-Nya kerajaan dan bagi-Nya segala puji. Dan Dia Mahakuasa atas segala sesuatu.” (Dibaca 10x atau dibaca 1x pada pagi dan sore)",
+                    "count": 10,
+                    "notes" : "10 or 100 count",
+                    "type": "dzikr"
+                }
+            ]
+        },
+        {
+            "title": "",
+            "title-id": "Membaca subhanallah wabihamdih",
+            "content": [
+                {
+                    "ar": "سُبْحَانَ اللهِ وَبِحَمْدِهِ",
+                    "en": "",
+                    "id": "Mahasuci Allah, aku memuji-Nya.",
+                    "count": 100,
+                    "type": "dzikr"
+                }
+            ]
+        },
+        {
+            "title": "",
+            "title-id": "Meminta Perlindungan Kepada Allah Dari Kejahatan",
+            "content": [
+                {
+                    "ar": "أَعُوْذُ بِكَلِمَاتِ اللهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
+                    "en": "",
+                    "id": "“Aku berlindung dengan kalimat-kalimat Allah yang sempurna, dari kejahatan sesuatu yang diciptakan-Nya.",
+                    "count": 3,
+                    "type": "dzikr"
+                }
+            ]
+        }
+    ]
+}

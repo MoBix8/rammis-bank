@@ -11,7 +11,7 @@ class TimerController extends GetxController {
   get Index => _selectedIndex.value;
   set Index(value) => _selectedIndex.value = value;
 
-  final _maxSeconds = 300.obs;
+  final _maxSeconds = 3000.obs;
   get MaxSecond => _maxSeconds.value;
 
   setLocked(bool value) {
@@ -24,7 +24,7 @@ class TimerController extends GetxController {
     update();
   }
 
-  static const maxSeconds = 300;
+  static const maxSeconds = 3000;
   int seconds = maxSeconds;
 
   Timer? timer;

@@ -1,10 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:get/get.dart';
+import 'package:get_storage/get_storage.dart';
 import 'package:rammisbank/controllers/timer_controller.dart';
 import 'package:rammisbank/pages/login_page.dart';
 import 'package:rammisbank/widgets/navbar.dart';
+import 'package:timezone/data/latest.dart' as tz;
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+  await GetStorage.init();
+  tz.initializeTimeZones();
+
   runApp(const MyApp());
 }
 
@@ -66,7 +74,7 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: NavBar(),
+      home: LoginPage(),
     );
   }
 }

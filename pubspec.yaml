@@ -40,6 +40,32 @@ dependencies:
   lottie: ^2.3.2
   animated_icon: ^0.0.5
   unicons: ^2.1.1
+  auto_size_text: ^3.0.0
+  google_fonts: ^4.0.4
+  flutter_svg: ^2.0.5
+  animated_custom_dropdown: ^1.5.0
+  random_date: ^0.0.7
+  username_gen: ^1.0.4
+  random_string: ^2.3.1
+  intl: ^0.18.1
+  qr_flutter: ^4.0.0
+  qr_code_scanner: ^1.0.1
+  dotted_line: ^3.2.2
+  hijri: ^3.0.0
+  timezone: ^0.8.0
+  geolocator: ^9.0.2
+  geocoding: ^2.1.0
+  flutter_native_timezone: ^2.0.0
+  adhan_dart: ^1.0.8
+  flutter_qiblah: ^2.2.0
+  flutter_local_notifications: ^9.1.2
+  quran: ^1.2.2
+  abushakir: ^1.0.0
+  location: ^5.0.1
+  flutter_countdown_timer: ^4.1.0
+  pray_times: ^0.0.1
+  change_case: ^1.1.0
+  google_maps_flutter: ^2.3.0
 
 dev_dependencies:
   flutter_test:
@@ -64,7 +90,16 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/home_lottie.json
+    - assets/
+    - assets/images/
+    - assets/cards/
+    - assets/utility/
+    - assets/apps/
+    - assets/book/
+    - assets/json/afr.json
+    - assets/json/amh.json
+    - assets/json/oro.json
+    - assets/json/som.json
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -78,10 +113,10 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+  fonts:
+    - family: Noor
+      fonts:
+        - asset: assets/fonts/noor.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
