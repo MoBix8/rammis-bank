@@ -8,7 +8,7 @@ FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
     FlutterLocalNotificationsPlugin();
 // initialise the plugin. app_icon needs to be a added as a drawable resource to the Android head project
 const AndroidInitializationSettings initializationSettingsAndroid =
-    AndroidInitializationSettings('ism_logo');
+    AndroidInitializationSettings('ramis_bank');
 
 const InitializationSettings initializationSettings = InitializationSettings(
   android: initializationSettingsAndroid,
@@ -47,10 +47,16 @@ class NotificationManager {
       required String adhan}) async {
     tz.initializeTimeZones();
     Duration duration = time.difference(DateTime.now());
+    final tz.TZDateTime now = tz.TZDateTime.now(tz.local);
+    final location = await tz.getLocation("Africa/Addis_Ababa");
+    tz.TZDateTime scheduledDate = tz.TZDateTime.from(time, location);
+
     flutterLocalNotificationsPlugin.zonedSchedule(
         id,
         "$salat Prayer Time",
         "It's time for $salat Prayer, Pray at the time",
+        // tz.TZDateTime.now(tz.local).add(const Duration(seconds: 5)),
+        // scheduledDate.add(duration),
         tz.TZDateTime.now(tz.local).add(time.difference(DateTime.now())),
         NotificationDetails(
             android: AndroidNotificationDetails(

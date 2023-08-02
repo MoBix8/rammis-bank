@@ -7,6 +7,7 @@ import 'package:rammisbank/pages/appPages/qibla/loading_indicator.dart';
 import 'package:rammisbank/pages/appPages/qibla/qiblah_compass.dart';
 import 'package:rammisbank/pages/appPages/qibla/qiblah_maps.dart';
 import 'package:rammisbank/utils/theme_data.dart';
+import 'package:unicons/unicons.dart';
 
 import 'package:flutter_qiblah/flutter_qiblah.dart';
 
@@ -40,7 +41,7 @@ class _QiblaPageState extends State<QiblaPage> {
                         size: width * 0.05,
                       )),
                   AutoSizeText(
-                    "Duas",
+                    "Qibla",
                     style: GoogleFonts.quicksand(
                         textStyle: TextStyle(
                             color: mainColor, fontSize: width * 0.06)),
@@ -56,18 +57,36 @@ class _QiblaPageState extends State<QiblaPage> {
                 child: FutureBuilder(
                     future: _deviceSupport,
                     builder: (_, AsyncSnapshot<bool?> snapshot) {
-                      if (snapshot.connectionState == ConnectionState.waiting)
+                      if (snapshot.connectionState == ConnectionState.waiting) {
                         return LoadingIndicator();
-                      if (snapshot.hasError)
+                      }
+                      if (snapshot.hasError) {
                         return Center(
                           child: Text("Error: ${snapshot.error.toString()}"),
                         );
+                      }
 
-                      if (snapshot.data!)
+                      if (snapshot.data!) {
                         return QiblahCompass();
-                      else
-                        // return QiblahMaps();
-                        return Text("Device Doesn't support");
+                      } else {
+                        return Center(
+                            child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Icon(
+                              Icons.location_off_outlined,
+                              color: Colors.redAccent,
+                              size: height * 0.2,
+                            ),
+                            Text(
+                              "Device is not Supported",
+                              style: GoogleFonts.ubuntuMono(
+                                  fontSize: width * 0.04),
+                            ),
+                          ],
+                        ));
+                      }
                     }),
               )
             ],

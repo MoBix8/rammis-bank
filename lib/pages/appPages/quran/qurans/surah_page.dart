@@ -24,6 +24,7 @@ class _SurahPageState extends State<SurahPage> {
   List _amh = [];
   final storage = GetStorage();
   late int selectedIndex;
+  List tafsir = [];
 
   bool loading = false;
   double progress = 0.0;
@@ -73,7 +74,10 @@ class _SurahPageState extends State<SurahPage> {
     storage.read("lang") == null ? storage.write("lang", "oro") : null;
     setState(() {
       selectedValue = storage.read("lang");
+      // tafsir.addAll(
+      //     _amh.where((item) => item["chapter"] == widget.surahNumber).toList());
     });
+    // getChapterData(widget.surahNumber!);
     readAmh();
   }
 
@@ -88,13 +92,13 @@ class _SurahPageState extends State<SurahPage> {
     final _height = MediaQuery.of(context).size.height;
     final _width = MediaQuery.of(context).size.width;
     return Scaffold(
-        body: Padding(
-      padding: EdgeInsets.symmetric(vertical: _height * 0.02),
-      child: FutureBuilder(
-          future: readAmh(),
-          builder: (context, snapshot) {
-            return ListView.separated(
+        body: FutureBuilder(
+            future: readAmh(),
+            builder: (context, snapshot) {
+              return ListView.separated(
                 shrinkWrap: true,
+                // itemCount: quran.getVerseCount(widget.surahNumber!),
+                itemCount: getChapterData(widget.surahNumber!).length,
                 itemBuilder: (context, index) {
                   // final translation = translator
                   //     .translate(
@@ -103,7 +107,11 @@ class _SurahPageState extends State<SurahPage> {
                   //         from: 'en',
                   //         to: 'am')
                   //     .toString();
-                  final amhVerse = getChapterData(widget.surahNumber!)[index];
+                  tafsir.addAll(_amh
+                      .where((item) => item["chapter"] == widget.surahNumber)
+                      .toList());
+                  final amhVerse = tafsir[index];
+                  // final amhVerse = getChapterData(widget.surahNumber!)[index];
                   return Padding(
                     padding: EdgeInsets.symmetric(horizontal: _width * 0.02),
                     child: Container(
@@ -235,7 +243,7 @@ class _SurahPageState extends State<SurahPage> {
                             height: _height * 0.06,
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(10),
-                                gradient: LinearGradient(
+                                gradient: const LinearGradient(
                                     begin: Alignment.topLeft,
                                     end: Alignment.bottomRight,
                                     colors: [
@@ -299,7 +307,9 @@ class _SurahPageState extends State<SurahPage> {
                                 index + 1,
                               ),
                               textDirection: TextDirection.rtl,
-                              style: TextStyle(fontSize: _height * 0.025),
+                              style: TextStyle(
+                                  fontSize: _height * 0.025,
+                                  fontFamily: 'Noor'),
                             ),
                           ),
                           SizedBox(
@@ -324,9 +334,8 @@ class _SurahPageState extends State<SurahPage> {
                 separatorBuilder: (context, index) {
                   return Divider();
                 },
-                itemCount: quran.getVerseCount(widget.surahNumber!));
-          }),
-    ));
+              );
+            }));
   }
 }
 

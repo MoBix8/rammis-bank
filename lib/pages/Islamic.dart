@@ -9,6 +9,7 @@ import 'package:get_storage/get_storage.dart';
 import 'package:intl/intl.dart';
 import 'package:rammisbank/controllers/adhan_controller.dart';
 import 'package:rammisbank/controllers/location_controller.dart';
+import 'package:rammisbank/pages/appPages/adhan/adhan.dart';
 import 'package:rammisbank/pages/appPages/dua/dua.dart';
 import 'package:rammisbank/pages/appPages/qibla/qibla.dart';
 
@@ -250,7 +251,7 @@ class _IslamicState extends State<Islamic> {
                 padding: EdgeInsets.symmetric(
                     horizontal: width * 0.05, vertical: height * 0.01),
                 child: GridView.builder(
-                    physics: NeverScrollableScrollPhysics(),
+                    physics: const NeverScrollableScrollPhysics(),
                     shrinkWrap: true,
                     gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                         crossAxisCount: 3,
@@ -262,11 +263,13 @@ class _IslamicState extends State<Islamic> {
                       return InkWell(
                         onTap: () {
                           if (index == 0) {
-                            Get.to(QuranPage());
+                            Get.to(const QuranPage());
+                          } else if (index == 1) {
+                            Get.to(const AdhanPage());
                           } else if (index == 2) {
-                            Get.to(QiblaPage());
+                            Get.to(const QiblaPage());
                           } else if (index == 3) {
-                            Get.to(DuaPage());
+                            Get.to(const DuaPage());
                           }
                         },
                         child: Container(
